@@ -1,30 +1,9 @@
-try2get
-=======
-
-get any or get all return values
-
-## install
-
-```shell
-npm i try2get --save
-```
-
-## use cases
-
-getting a supported XHR object [xhr.js](./example/xhr.js):
-
-```javascript
-const try2get = require('try2get');
-const xhr = try2get.one(
-    () => new XMLHttpRequest(),
-    () => new ActiveXObject('MSXML2.XMLHTTP'),
-    () => new ActiveXObject('Microsoft.XMLHTTP')
-);
-```
-
-listing all the supported features [built-ins.js](./example/built-ins.js):
-
-```javascript
+'use strict';
+/**
+ * built-ins module
+ * @module built-ins
+ * @see module:index
+ */
 const try2get = require('../index');
 const lang = require('zero-lang');
 
@@ -52,5 +31,3 @@ const features = try2get.all([
 ]);
 
 console.log(lang.map(features, feature => feature.toString()));
-```
-

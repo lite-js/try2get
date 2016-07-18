@@ -1,0 +1,30 @@
+{
+  "name": "try2get",
+  "version": "0.0.1",
+  "description": "get any or get all return values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leungwensen/try2get.git"
+  },
+  "keywords": [
+    "try2get",
+    "try",
+    "get"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "leungwensen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leungwensen/try2get/issues"
+  },
+  "homepage": "https://github.com/leungwensen/try2get#readme",
+  "dependencies": {
+    "zero-lang": "^0.1.2"
+  }
+}
