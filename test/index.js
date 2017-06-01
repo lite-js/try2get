@@ -1,4 +1,4 @@
-const assert = require('assert');
+const assert = require('assert')
 const try2get = require('../index')
 
 describe('try2get', () => {
