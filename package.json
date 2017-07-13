@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "mocha": "^3.4.2",
+    "pre-commit": "^1.2.2",
     "standard": "^10.0.2"
   },
   "engines": {
@@ -26,6 +27,13 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:lite-js/try2get.git"
+  },
+  "pre-commit": {
+    "run": [
+      "lint",
+      "test"
+    ],
+    "silent": false
   },
   "scripts": {
     "lint": "standard",
