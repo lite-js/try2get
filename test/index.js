@@ -1,3 +1,5 @@
+/* eslint-env mocha */
+/* global SomeHowNotExists */
 const assert = require('assert')
 const try2get = require('../index')
 

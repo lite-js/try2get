@@ -10,7 +10,8 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -27,6 +28,8 @@
     "url": "git@github.com:lite-js/try2get.git"
   },
   "scripts": {
+    "lint": "standard",
+    "lint-fix": "standard --fix",
     "test": "mocha"
   }
 }

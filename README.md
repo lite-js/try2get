@@ -6,7 +6,7 @@ get any or get all return values
 ## install
 
 ```shell
-npm i try2get --save
+npm i @lite-js/try2get --save
 ```
 
 ## use cases
@@ -53,4 +53,3 @@ const features = try2get.all([
 
 console.log(lang.map(features, feature => feature.toString()));
 ```
-

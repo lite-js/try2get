@@ -31,3 +31,5 @@ node_modules
 
 _temp
 doc/jsdoc
+
+package-lock.json
