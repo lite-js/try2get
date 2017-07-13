@@ -1,6 +1,8 @@
 try2get
 =======
 
+[![npm version](https://badge.fury.io/js/%40lite-js%2Ftry2get.svg)](https://badge.fury.io/js/%40lite-js%2Ftry2get) [![Build Status](https://travis-ci.org/lite-js/try2get.svg?branch=master)](https://travis-ci.org/lite-js/try2get)
+
 get any or get all return values
 
 ## install
